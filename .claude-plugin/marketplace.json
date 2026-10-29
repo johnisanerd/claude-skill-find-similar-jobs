@@ -1,0 +1,33 @@
+{
+  "name": "claude-skill-find-similar-jobs",
+  "owner": {
+    "name": "John Cole",
+    "email": "29712567+johnisanerd@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Find similar jobs from one posting you love, each checked against the employer's own careers board, using Apify job Actors.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "apify-find-similar-jobs",
+      "source": "./apify-find-similar-jobs",
+      "skills": "./",
+      "description": "Find similar jobs from one job posting: Google Jobs, LinkedIn similar jobs, and employers' own Ashby, Greenhouse, JazzHR, Workday, Oracle and iCIMS boards on Apify, with every result labeled open on the employer's board or aggregator only.",
+      "keywords": [
+        "apify",
+        "similar jobs",
+        "find similar jobs",
+        "jobs similar to",
+        "hidden job market",
+        "google jobs",
+        "ats job search",
+        "claude job search",
+        "mcp",
+        "claude"
+      ],
+      "category": "data-extraction",
+      "version": "1.0.0"
+    }
+  ]
+}
